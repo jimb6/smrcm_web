@@ -32,7 +32,8 @@ useHead({
   script: [],
   style: [
     {
-      children: `@property --gradient-angle{syntax:'<angle>';inherits:false;initial-value:180deg}@keyframes gradient-rotate{0%{--gradient-angle:0deg}100%{--gradient-angle:360deg}}*,:before,:after{-webkit-box-sizing:border-box;box-sizing:border-box;border-width:0;border-style:solid;border-color:#e0e0e0}*{--tw-ring-inset:var(--tw-empty, );--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgba(14, 165, 233, .5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000}:root{-moz-tab-size:4;-o-tab-size:4;tab-size:4}a{color:inherit;text-decoration:inherit}body{margin:0;font-family:inherit;line-height:inherit}html{-webkit-text-size-adjust:100%;font-family:ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,"Apple Color Emoji","Segoe UI Emoji",Segoe UI Symbol,"Noto Color Emoji";line-height:1.5}h1,p,h2,h3{margin:0}h1,h2,h3{font-size:inherit;font-weight:inherit}img{border-style:solid;max-width:100%;height:auto}svg,img{display:block;vertical-align:middle}ul{list-style:none;margin:0;padding:0}`    }
+      children: `@property --gradient-angle{syntax:'<angle>';inherits:false;initial-value:180deg}@keyframes gradient-rotate{0%{--gradient-angle:0deg}100%{--gradient-angle:360deg}}*,:before,:after{-webkit-box-sizing:border-box;box-sizing:border-box;border-width:0;border-style:solid;border-color:#e0e0e0}*{--tw-ring-inset:var(--tw-empty, );--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgba(14, 165, 233, .5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000}:root{-moz-tab-size:4;-o-tab-size:4;tab-size:4}a{color:inherit;text-decoration:inherit}body{margin:0;font-family:inherit;line-height:inherit}html{-webkit-text-size-adjust:100%;font-family:ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,"Apple Color Emoji","Segoe UI Emoji",Segoe UI Symbol,"Noto Color Emoji";line-height:1.5}h1,p,h2,h3{margin:0}h1,h2,h3{font-size:inherit;font-weight:inherit}img{border-style:solid;max-width:100%;height:auto}svg,img{display:block;vertical-align:middle}ul{list-style:none;margin:0;padding:0}`
+    }
   ]
 })
 </script>
@@ -171,7 +172,10 @@ useHead({
           </div>
         </div>
         <div
-            class="lg:min-h-min sm:min-h-[220px] md:min-h-[180px] col-span-2 sm:col-span-1 lg:col-span-6 text-black dark:text-white rounded-xl modules-container relative items-center justify-center border border-gray-200 dark:border-transparent hover:border-transparent">
+            class="lg:min-h-min sm:min-h-[220px] md:min-h-[180px] col-span-2 sm:col-span-1
+            lg:col-span-6 text-black dark:text-white rounded-xl modules-container relative
+            items-center justify-center border border-gray-200 dark:border-transparent
+            hover:border-transparent">
           <div class="gradient-border gradient-border-modules gradient-border-rect"></div>
           <div
               class="modules-gradient-right absolute right-0 inset-y-0 w-[20%] bg-gradient-to-l to-transparent from-yellow-400 rounded-xl z-1 transition-opacity duration-300"></div>
@@ -194,10 +198,10 @@ useHead({
               </p></div>
           </a></div>
         <div
-            class="row-span-2 col-span-2 order-last lg:order-none lg:col-span-4 text-black dark:text-white documentation-container rounded-xl relative items-center justify-center border border-gray-200 dark:border-transparent hover:border-transparent">
+            class="row-span-2 col-span-2 lg:order-none lg:col-span-4 text-black dark:text-white documentation-container rounded-xl relative items-center justify-center border border-gray-200 dark:border-transparent hover:border-transparent">
           <div class="gradient-border gradient-border-square gradient-border-documentation"></div>
-          <a href="/smrcm-v1.apk"
-             class="rounded-xl flex lg:flex-col items-center justify-center gap-y-4 bg-white dark:bg-gray-900">
+          <div
+              class="rounded-xl flex lg:flex-col items-center justify-center gap-y-4 bg-white dark:bg-gray-900">
             <div
                 class="py-6 lg:py-7 px-5 rounded-xl flex flex-col sm:flex-row lg:flex-col items-center justify-center gap-y-2">
               <div class="flex flex-col space-y text-black dark:text-white">
@@ -206,61 +210,65 @@ useHead({
                 </h3>
                 <p class="text-gray-700 dark:text-gray-300">
                 </p>
-                <ul >
+                <ul>
                   <li class="mb-2 text-gray-700 dark:text-gray-300">
-                    <p>🌾 Seamless Access: Get instant access to a treasure trove of farming insights, tips, and techniques
+                    <p class="justify">🌾 Seamless Access: Get instant access to a treasure trove of farming insights, tips, and
+                      techniques
                       right on your Android device.
                     </p>
                   </li>
                   <li class="mb-2 text-gray-700 dark:text-gray-300">
-                    🌾 Smart Farming Tools: Empower your farming journey with cutting-edge tools designed to enhance
-                    efficiency and yield.
-                  </li>
-
-                </ul>
-              </div>
-
-              <img
-                  src="/android_dark.png"
-                  alt="documentation icon" class="documentation-image-color-light h-32 ">
-              <img
-                  src="/android_dark.png"
-                  alt="documentation icon" class="documentation-image-color-dark h-32 ">
-              <img
-                  src="/android_dark.png"
-                  alt="documentation icon" class="documentation-image-light h-32 ">
-              <img
-                  src="/android_light.png"
-                  alt="documentation icon" class="documentation-image-dark h-32 ">
-              <h1>
-              Download Now!
-              </h1>
-
-              <div class="flex flex-col space-y text-black dark:text-white">
-                <h3 class="text-center font-semibold text-xl">
-                  Checkout the Manual!
-                </h3>
-                <p class="text-gray-700 dark:text-gray-300">
-                </p>
-                <ul >
-                  <li class="mb-2 text-gray-700 dark:text-gray-300">
-                    <p>🌾 Seamless Access: Get instant access to a treasure trove of farming insights, tips, and techniques
-                      right on your Android device.
+                    <p>
+                      🛠️ Smart Farming Tools: Empower your farming journey with cutting-edge tools designed to enhance
+                      efficiency and yield.
                     </p>
                   </li>
                   <li class="mb-2 text-gray-700 dark:text-gray-300">
-                    🌾 Smart Farming Tools: Empower your farming journey with cutting-edge tools designed to enhance
-                    efficiency and yield.
+                    <p>
+                      🗓️ Crop Calendar: a powerful tool designed to streamline your rice farming journey. This
+                      comprehensive feature empowers you with a personalized schedule, ensuring each stage of
+                      cultivation aligns seamlessly with optimal growing conditions.
+                    </p>
                   </li>
 
                 </ul>
+
+                <h1 class="text-xl py-6 text-gray-700 dark:text-gray-300">
+                  Download the App and Manual.
+                </h1>
               </div>
 
+              <div class="flex justify-center items-center place-content-center center">
+                <a href="/smrcm-v1.apk">
+                  <div class="flex flex-col items-center justify-center px-5">
+                    <img
+                        src="/android_light.png"
+                        alt="Download APK"
+                        height="64"
+                        width="64"
+                        class="documentation-image-dark"/>
+                  </div>
+                </a>
+
+                <a href="/manual.pdf">
+                  <div class="flex flex-col items-center justify-center gap-3 px-5">
+                    <img
+                        src="/pdf_light.png"
+                        height="64"
+                        width="64"
+                        alt="Download Manual" class="documentation-image-dark"/>
+                  </div>
+                </a>
+              </div>
             </div>
-          </a>
+          </div>
         </div>
         <div
-            class="lg:min-h-min sm:min-h-[220px] md:min-h-[180px] col-span-2 sm:col-span-1 lg:col-span-6 text-black dark:text-white rounded-xl examples-container relative items-center justify-center border border-gray-200 dark:border-transparent hover:border-transparent">
+            class="lg:min-h-min sm:min-h-[220px] md:min-h-[180px]
+            col-span-2 sm:col-span-1 lg:col-span-6 text-black
+            dark:text-white rounded-xl examples-container
+            relative items-center justify-center
+            border border-gray-200 dark:border-transparent hover:border-transparent">
           <div class="gradient-border gradient-border-examples gradient-border-rect"></div>
           <div
               class="examples-gradient-right absolute right-0 inset-y-0 w-[20%] bg-gradient-to-l to-transparent from-blue-400 rounded-xl z-1 transition-opacity duration-300"></div>
@@ -403,11 +411,12 @@ useHead({
 <style scoped>
 .with-bg {
   background-image: url("../public/bg.jpg") !important;
-  background-size:     cover;
-  background-repeat:   no-repeat;
+  background-size: cover;
+  background-repeat: no-repeat;
   background-position: center center;
 
 }
+
 @media (prefers-color-scheme: light) {
 
 
