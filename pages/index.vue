@@ -239,7 +239,7 @@ useHead({
               </div>
 
               <div class="flex justify-center items-center place-content-center center">
-                <a href="/smrcm-v1.apk">
+                <a href="https://smrcm.s3.ap-southeast-1.amazonaws.com/smrcm-v1.apk">
                   <div class="flex flex-col items-center justify-center px-5">
                     <img
                         src="/android_light.png"
