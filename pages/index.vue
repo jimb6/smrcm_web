@@ -246,7 +246,7 @@ useHead({
                         alt="Download APK"
                         height="64"
                         width="64"
-                        class="documentation-image-dark"/>
+                        class=""/>
                   </div>
                 </a>
 
@@ -256,7 +256,8 @@ useHead({
                         src="/pdf_light.png"
                         height="64"
                         width="64"
-                        alt="Download Manual" class="documentation-image-dark"/>
+                        alt="Download Manual"
+                        class=""/>
                   </div>
                 </a>
               </div>
